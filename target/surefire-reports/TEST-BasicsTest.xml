@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BasicsTest" time="27.523" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject\target\test-classes;C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject\target\classes;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\aventstack\extentreports\4.1.6\extentreports-4.1.6.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Tools\Java\bin"/>
+    <property name="sun.java.command" value="C:\Users\nishith.in_jai-kisan\AppData\Local\Temp\surefire2485328781966047104\surefirebooter-20240702151819826_3.jar C:\Users\nishith.in_jai-kisan\AppData\Local\Temp\surefire2485328781966047104 2024-07-02T15-18-19_578-jvmRun1 surefire-20240702151819826_1tmp surefire_0-20240702151819826_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject\target\test-classes;C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject\target\classes;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\aventstack\extentreports\4.1.6\extentreports-4.1.6.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\nishith.in_jai-kisan\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nishith.in_jai-kisan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-03-21"/>
+    <property name="java.home" value="C:\Tools\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nishith.in_jai-kisan\AppData\Local\Temp\surefire2485328781966047104\surefirebooter-20240702151819826_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20+36-2344"/>
+    <property name="user.name" value="nishith.in_jai-kisan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nishith.in_jai-kisan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NISHIT~1.IN_\AppData\Local\Temp\"/>
+    <property name="java.version" value="20"/>
+    <property name="user.dir" value="C:\Users\nishith.in_jai-kisan\eclipse-workspace\Practiceproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Tools\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Java\bin;C:\Program Files\Git\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.14\bin;C:\Users\nishith.in_jai-kisan\Documents\node_modules\.bin;C:\ProgramData\chocolatey\bin;C:\Tools\apache-jmeter-5.5\apache-jmeter-5.5\bin;%JAVA_HOME%bin;C:\Tools\apache-maven-3.9.6\bin;C:\Program Files\nodejs\;C:\Users\nishith.in_jai-kisan\AppData\Local\Microsoft\WindowsApps;C:\Users\nishith.in_jai-kisan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nishith.in_jai-kisan\AppData\Local\GitHubDesktop\bin;C:\Users\nishith.in_jai-kisan\Desktop\git\cmd;C:\Users\nishith.in_jai-kisan\AppData\Roaming\npm;C:\Tools\apache-maven-3.9.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20+36-2344"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="testBkPaymentLink" classname="BasicsTest" time="17.308">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Tue, 02 Jul 2024 09:48:23 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "sessionInfo": "AD8T5IsRm5siGHduJl3bVy_LX_1Dr00_00mPR9gDbXnUAIAJv84tGJBU8fGGQ3kHv8RJg1fotEd7ctsJAjiL7DdR0jMlOK1MAV_USfE-HGMRCAlZC7jfJdE2AOV1E54jg0_Qtuyt56u0ykPcC1ZLoxX_Y1yBOEnWzA"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Tue, 02 Jul 2024 09:48:25 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmsgdGVzdCIsInBpY3R1cmUiOiJodHRwczovL3VhdC1hc3NldHMuYmhhcmF0a2hhdGEuY29tL2VlODcxYmM2LTNmOGYtNDg1MC04N2Y1LTlkZmY0NDg1YmY4OC5qcGciLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmhhcmF0a2hhdGEtdWF0IiwiYXVkIjoiYmhhcmF0a2hhdGEtdWF0IiwiYXV0aF90aW1lIjoxNzE5OTEzNzA1LCJ1c2VyX2lkIjoiT1JodXR3eXNXUmMxamUwV2p2dW5ReE1iejlyMiIsInN1YiI6Ik9SaHV0d3lzV1JjMWplMFdqdnVuUXhNYno5cjIiLCJpYXQiOjE3MTk5MTM3MDUsImV4cCI6MTcxOTkxNzMwNSwicGhvbmVfbnVtYmVyIjoiKzkxNzE3MTcxNzE3MSIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzkxNzE3MTcxNzE3MSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBob25lIn19.CVD5nU8xWj3AqH4HK7KL0qvryoFHnSxkugvTgaggkJjPauV3WPnxP1AO_EOfXCHTBgSqm1ucuXfXnOvg-ylezYBQ5NVtXXinlBYYEI3PATr4UCRgFCLxWqohadYiMr2zGSnVDgp2R3G9ISsm42-7vmVyxDawng20M5Ahc9nZZTEtLHYDlV9L2aDps1Lo3O-KUIiwQmXzYGOUyfbyraAzh69TSnrUj1mtYxWsDDY75sryC10GUpbjuOZDE_DHXTvCSwSBvXnAYmld-zn1Ja2O391hVna-MzZJUXPlUSFCopYH2DSfOJuZizwPQXvOhEIpRhVAvtxL6Whh93cfVPERgw",
+    "refreshToken": "AMf-vBwLSgZV_TA0d6NLYCJRNdH9rYuRxy302PpMi1fHFGxji6R8VZUjrXgydiYsJaj30ljCq4Tcl5QjcuuSR41itrthp_ZAL6Mh_cZRuYiaZHcPz8M4d954RDAAIWvzdSxT1K0hLOE-VAGv_efcf-soHMJ1qi4PoZmU30L7dhU5xXRvlj2I7jkRSk70jVOEIpX7pN_IyxktfU9oMU5_KVCbjEwtEyoBNw",
+    "expiresIn": "3600",
+    "localId": "ORhutwysWRc1je0WjvunQxMbz9r2",
+    "isNewUser": false,
+    "phoneNumber": "+917171717171"
+}
+{
+  "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmsgdGVzdCIsInBpY3R1cmUiOiJodHRwczovL3VhdC1hc3NldHMuYmhhcmF0a2hhdGEuY29tL2VlODcxYmM2LTNmOGYtNDg1MC04N2Y1LTlkZmY0NDg1YmY4OC5qcGciLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmhhcmF0a2hhdGEtdWF0IiwiYXVkIjoiYmhhcmF0a2hhdGEtdWF0IiwiYXV0aF90aW1lIjoxNzE5OTEzNzA1LCJ1c2VyX2lkIjoiT1JodXR3eXNXUmMxamUwV2p2dW5ReE1iejlyMiIsInN1YiI6Ik9SaHV0d3lzV1JjMWplMFdqdnVuUXhNYno5cjIiLCJpYXQiOjE3MTk5MTM3MDUsImV4cCI6MTcxOTkxNzMwNSwicGhvbmVfbnVtYmVyIjoiKzkxNzE3MTcxNzE3MSIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzkxNzE3MTcxNzE3MSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBob25lIn19.CVD5nU8xWj3AqH4HK7KL0qvryoFHnSxkugvTgaggkJjPauV3WPnxP1AO_EOfXCHTBgSqm1ucuXfXnOvg-ylezYBQ5NVtXXinlBYYEI3PATr4UCRgFCLxWqohadYiMr2zGSnVDgp2R3G9ISsm42-7vmVyxDawng20M5Ahc9nZZTEtLHYDlV9L2aDps1Lo3O-KUIiwQmXzYGOUyfbyraAzh69TSnrUj1mtYxWsDDY75sryC10GUpbjuOZDE_DHXTvCSwSBvXnAYmld-zn1Ja2O391hVna-MzZJUXPlUSFCopYH2DSfOJuZizwPQXvOhEIpRhVAvtxL6Whh93cfVPERgw",
+  "refreshToken": "AMf-vBwLSgZV_TA0d6NLYCJRNdH9rYuRxy302PpMi1fHFGxji6R8VZUjrXgydiYsJaj30ljCq4Tcl5QjcuuSR41itrthp_ZAL6Mh_cZRuYiaZHcPz8M4d954RDAAIWvzdSxT1K0hLOE-VAGv_efcf-soHMJ1qi4PoZmU30L7dhU5xXRvlj2I7jkRSk70jVOEIpX7pN_IyxktfU9oMU5_KVCbjEwtEyoBNw",
+  "expiresIn": "3600",
+  "localId": "ORhutwysWRc1je0WjvunQxMbz9r2",
+  "isNewUser": false,
+  "phoneNumber": "+917171717171"
+}
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 70
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:27 GMT
+x-amzn-RequestId: 03ffe5a0-7baa-46b9-863c-468bb00c38c0
+x-amzn-Remapped-content-length: 70
+x-amzn-Remapped-connection: keep-alive
+x-amz-apigw-id: aRz0rGYihcwETlw=
+etag: W/"46-/4MvFsBLz32ahHdW2y4AO76H/ec"
+x-powered-by: Express
+X-Amzn-Trace-Id: Root=1-6683ccea-755fbb48050ba9bd27653fc8
+x-amzn-Remapped-date: Tue, 02 Jul 2024 09:48:27 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 66bb7624c65bf142c90865dcc9a59108.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: c0EQCdqZQ6xiOBPlQfyQTWVfzl_qBWoFNuPEmo5wZAr6MOsvLl0bRA==
+
+{
+    "link": "uat.bkha.in/b6pf0w",
+    "repaymentId": "6683ccebc702f00a836f38da"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:35 GMT
+x-amzn-RequestId: 98981443-8044-42ee-a8f3-d08d07920cda
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 35
+x-download-options: noopen
+x-amz-apigw-id: aRz09EjOBcwEZDg=
+x-content-type-options: nosniff
+etag: W/"23-s4891V+mo1uFl19AW+5z7KWgIgc"
+request-id: 0270837b-9d31-4390-afaa-c35d9cfdb47e
+X-Amzn-Trace-Id: Root=1-6683ccec-53cc698b6df7055270ff3bba
+X-Cache: Miss from cloudfront
+Via: 1.1 681d969d2497c22ba74ebcd42875c880.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: ghKGziXx68XD5G0a-gnFgN0j-nMJQAaqMfOGNHF0WCHMw6sACPPaQQ==
+
+{
+    "url": "https://rzp.io/i/r9ysz3ti"
+}
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:38 GMT
+x-amzn-RequestId: 6a1a10f4-b956-4d45-adf2-7326645aca29
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 32
+x-download-options: noopen
+x-amz-apigw-id: aRz2KFMRhcwEIjg=
+x-content-type-options: nosniff
+etag: W/"20-2mw0XwO7+3AVgAr0Y2qp1TZTqdc"
+X-Amzn-Trace-Id: Root=1-6683ccf3-61e8dd4a4e78a25f67571a50
+X-Cache: Miss from cloudfront
+Via: 1.1 59e9c512e1bbebe62aea77d556eea354.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: osAIySoWSTNa8q9BhHp_qoUoU6t_VGvNpY9Z-Xx3gKF1Bh0Y7A3Fzw==
+
+<html>
+  <body>Message was added Successfully!!</body>
+</html>
+Exection of BK Link PAYMENT is completed
+]]></system-out>
+  </testcase>
+  <testcase name="testBkQrRepayment" classname="BasicsTest" time="3.711">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at files.payload.bkQrRepayment(payload.java:189)
+	at BasicsTest.testBkQrRepayment(BasicsTest.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Tue, 02 Jul 2024 09:48:38 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "sessionInfo": "AD8T5Iss2E5hXM1XjKQZCswnplDbm9J-WaJaYyoUQpR5DUBZtJFQ47fWr4hsxe__xG-kyjpSM8OJtJNUJ34f_cEl6qF95F_a9KN0j2qQiHJdHQGM5UAMowdgCDKLPFeBsmBam6-5l0AT57O7xMKuNm018KJv9SNRmA"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Tue, 02 Jul 2024 09:48:39 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmsgdGVzdCIsInBpY3R1cmUiOiJodHRwczovL3VhdC1hc3NldHMuYmhhcmF0a2hhdGEuY29tL2VlODcxYmM2LTNmOGYtNDg1MC04N2Y1LTlkZmY0NDg1YmY4OC5qcGciLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmhhcmF0a2hhdGEtdWF0IiwiYXVkIjoiYmhhcmF0a2hhdGEtdWF0IiwiYXV0aF90aW1lIjoxNzE5OTEzNzE5LCJ1c2VyX2lkIjoiT1JodXR3eXNXUmMxamUwV2p2dW5ReE1iejlyMiIsInN1YiI6Ik9SaHV0d3lzV1JjMWplMFdqdnVuUXhNYno5cjIiLCJpYXQiOjE3MTk5MTM3MTksImV4cCI6MTcxOTkxNzMxOSwicGhvbmVfbnVtYmVyIjoiKzkxNzE3MTcxNzE3MSIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzkxNzE3MTcxNzE3MSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBob25lIn19.FnKA5_aXeRI5fdzF-e2mtV1zOZKTKuB6zzaWTFPv4DB9lCkOW73P0ogwSmCyPfJqK2GLvTfVHMylQzsEOIm7fzSw9wcdkjHkVTMDb1ZZPW37W9-0el11MyjHMlEnOAXhMeE4RWvfuuDYHdV9HaGFLomWw4VhrFn2lyglv8Gg6RKnawNVghLEsfP1XhqVhTFZcvO8wfzS9WUnQnQvuMHtHt8YVTLvlHGUnOcFaK-Obd-X7JdtOJt06IJerTP2GRmmkVRrrRg5gC-iu_rjZq_ZXgGKBIDoYibaCBgPMd_F9-auDZNH2Ud8DyT2Ql6QZCvS_vaGKhsV2jxxqB_FnZ_BGA",
+    "refreshToken": "AMf-vBxQZZx4VMoo4SA_hM36A-piJAXwMb-k0rphYK141SHI8Zj4HAzk7aGjAUoYmiryOmOg1aO5PQmTTwMj3wwGJ7swo1RwOQQa8idBSznql8k7j0GKQ4RF4w9jqPz1IFqojzq5ISpw3Gl-gxmS6coJ1RYfeoOplO5xSLk6X6wYwqOomjh5gkMPUqndqJAaNY5d91tlIxy4ae6qR4WC4sqaE01Z9bbRuw",
+    "expiresIn": "3600",
+    "localId": "ORhutwysWRc1je0WjvunQxMbz9r2",
+    "isNewUser": false,
+    "phoneNumber": "+917171717171"
+}
+{
+  "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmsgdGVzdCIsInBpY3R1cmUiOiJodHRwczovL3VhdC1hc3NldHMuYmhhcmF0a2hhdGEuY29tL2VlODcxYmM2LTNmOGYtNDg1MC04N2Y1LTlkZmY0NDg1YmY4OC5qcGciLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmhhcmF0a2hhdGEtdWF0IiwiYXVkIjoiYmhhcmF0a2hhdGEtdWF0IiwiYXV0aF90aW1lIjoxNzE5OTEzNzE5LCJ1c2VyX2lkIjoiT1JodXR3eXNXUmMxamUwV2p2dW5ReE1iejlyMiIsInN1YiI6Ik9SaHV0d3lzV1JjMWplMFdqdnVuUXhNYno5cjIiLCJpYXQiOjE3MTk5MTM3MTksImV4cCI6MTcxOTkxNzMxOSwicGhvbmVfbnVtYmVyIjoiKzkxNzE3MTcxNzE3MSIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzkxNzE3MTcxNzE3MSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBob25lIn19.FnKA5_aXeRI5fdzF-e2mtV1zOZKTKuB6zzaWTFPv4DB9lCkOW73P0ogwSmCyPfJqK2GLvTfVHMylQzsEOIm7fzSw9wcdkjHkVTMDb1ZZPW37W9-0el11MyjHMlEnOAXhMeE4RWvfuuDYHdV9HaGFLomWw4VhrFn2lyglv8Gg6RKnawNVghLEsfP1XhqVhTFZcvO8wfzS9WUnQnQvuMHtHt8YVTLvlHGUnOcFaK-Obd-X7JdtOJt06IJerTP2GRmmkVRrrRg5gC-iu_rjZq_ZXgGKBIDoYibaCBgPMd_F9-auDZNH2Ud8DyT2Ql6QZCvS_vaGKhsV2jxxqB_FnZ_BGA",
+  "refreshToken": "AMf-vBxQZZx4VMoo4SA_hM36A-piJAXwMb-k0rphYK141SHI8Zj4HAzk7aGjAUoYmiryOmOg1aO5PQmTTwMj3wwGJ7swo1RwOQQa8idBSznql8k7j0GKQ4RF4w9jqPz1IFqojzq5ISpw3Gl-gxmS6coJ1RYfeoOplO5xSLk6X6wYwqOomjh5gkMPUqndqJAaNY5d91tlIxy4ae6qR4WC4sqaE01Z9bbRuw",
+  "expiresIn": "3600",
+  "localId": "ORhutwysWRc1je0WjvunQxMbz9r2",
+  "isNewUser": false,
+  "phoneNumber": "+917171717171"
+}
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:41 GMT
+x-amzn-RequestId: 7fa3a02b-c710-45bb-bea5-6b61ba6173d0
+x-amzn-Remapped-content-length: 82
+x-amzn-Remapped-connection: keep-alive
+x-amz-apigw-id: aRz24F6NhcwEcuw=
+etag: W/"52-ooHoRyY77XuF0D/SAxZeMcDQQn0"
+x-powered-by: Express
+X-Amzn-Trace-Id: Root=1-6683ccf8-3329a4536a074e1d07dcd3fd
+x-amzn-Remapped-date: Tue, 02 Jul 2024 09:48:41 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 76d9b50884e58e2463b175e34e790838.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: 5xafF4NW676-O_-7_hkRLe8jxJcBzTn6vfJqZygy41WvAT6MW_YaEg==
+
+{
+    "repaymentId": "6683ccf9c702f00a836f38db",
+    "loanApplicationId": "JKFPO202405579132"
+}
+HTTP/1.1 500 Internal Server Error
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:42 GMT
+x-amzn-RequestId: 08247c82-55ef-421d-a166-23a0eccc29c3
+x-amzn-Remapped-content-length: 35
+x-amzn-Remapped-connection: keep-alive
+x-amz-apigw-id: aRz3EGaABcwEZdA=
+etag: W/"23-OBw6E4FLjYQt4mo8ArqhWH0VGJs"
+x-powered-by: Express
+X-Amzn-Trace-Id: Root=1-6683ccf9-217430dd326336c8797e21f2
+x-amzn-Remapped-date: Tue, 02 Jul 2024 09:48:42 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 33c2a06b944e6aed8f63725bf76377d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: rIqItVI8Idcopj14-iDkckHiiZsTnLDxV-NYWD-HGSmDsYXavPus7Q==
+
+{
+    "message": "Internal Server Error"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCredgenicsBulkPayment" classname="BasicsTest" time="2.297">
+    <system-out><![CDATA[2024-07-02
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 119
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:44 GMT
+x-amzn-RequestId: f284ab1d-a2ca-4fcf-9679-631f34d087be
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 119
+x-download-options: noopen
+x-amz-apigw-id: aRz3OF2zhcwECJQ=
+x-content-type-options: nosniff
+etag: W/"77-ohZvdSuFjxtrONguwWs8lYXY6IM"
+X-Amzn-Trace-Id: Root=1-6683ccfa-2f2362e85b0817320cc94a9a
+X-Cache: Miss from cloudfront
+Via: 1.1 59e9c512e1bbebe62aea77d556eea354.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: g6RpLTi2d_DnrWWeO8pFRAW7VfCKj8jgTZZn-zlwCkr9TO13gU_RUQ==
+
+{
+    "success": true,
+    "requestId": "286a8aaa-5f80-4325-8563-e149048a2f83-JKFPO202405579132",
+    "time": "2024-07-02T09:48:44.473Z"
+}
+Execution of  Bulk payment comepleted
+]]></system-out>
+  </testcase>
+  <testcase name="testExternalPayments" classname="BasicsTest" time="0.316">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:44 GMT
+x-amzn-RequestId: b3505514-a10b-4459-9b9f-2445237e8b1f
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 32
+x-download-options: noopen
+x-amz-apigw-id: aRz3kGXSBcwEaiw=
+x-content-type-options: nosniff
+etag: W/"20-2mw0XwO7+3AVgAr0Y2qp1TZTqdc"
+X-Amzn-Trace-Id: Root=1-6683ccfc-0ee8d47973feb41249a8c2e8
+X-Cache: Miss from cloudfront
+Via: 1.1 cebd9c97d7e407e60d33b870ba0bdf2a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: RcJblVvG_cLPCrTjH1OsLMxDRksI9c-QWh4BvrbZK0lgb51fn9KTxA==
+
+<html>
+  <body>Message was added Successfully!!</body>
+</html>
+Exection of EXTERNAL PAYMENT LINK PAYMENT is completed
+]]></system-out>
+  </testcase>
+  <testcase name="testFosCashDeposit" classname="BasicsTest" time="0.551">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 111
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:45 GMT
+x-amzn-RequestId: 66bb563f-39c8-40fa-a674-f1f858773e91
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 111
+x-download-options: noopen
+x-amz-apigw-id: aRz3nFgrBcwELzg=
+x-content-type-options: nosniff
+etag: W/"6f-Xr5nRXKlF2b6gu72V2gZN221fkk"
+X-Amzn-Trace-Id: Root=1-6683ccfd-3c3904043263227035690da1
+X-Cache: Miss from cloudfront
+Via: 1.1 681d969d2497c22ba74ebcd42875c880.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: YoJ2N5DamTcyAzywAYBj71yE8tov1TSouUX3-8eCB7IuZUwXevKOuw==
+
+{
+    "success": true,
+    "requestId": "16490191-9373-4196-b182-049e9d03b5f2-undefined",
+    "time": "2024-07-02T09:48:45.383Z"
+}
+Exection of FOS CASH PAYMENT is completed
+]]></system-out>
+  </testcase>
+  <testcase name="testFosOnlineDeposit" classname="BasicsTest" time="0.625">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 111
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:46 GMT
+x-amzn-RequestId: ab29de53-13c7-44a2-af96-562c17136bea
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 111
+x-download-options: noopen
+x-amz-apigw-id: aRz3tF6SBcwEGlg=
+x-content-type-options: nosniff
+etag: W/"6f-CT9SLoyloEUsF8N7GwgqAzcaGqw"
+X-Amzn-Trace-Id: Root=1-6683ccfd-609e9ff2069116f806f5ea88
+X-Cache: Miss from cloudfront
+Via: 1.1 059b3924ea7361330af703da0a67792a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: vNn3NRj_C9J332U5fjsNhmlguLftsGK7IB26vKezEEglbjI3WilNug==
+
+{
+    "success": true,
+    "requestId": "93d1c99f-b731-4e4f-ad71-f3784a5cddf6-undefined",
+    "time": "2024-07-02T09:48:46.055Z"
+}
+Exection of FOS ONLINE PAYMENT is completed
+]]></system-out>
+  </testcase>
+  <testcase name="testVirtualAccountRepayment" classname="BasicsTest" time="0.297">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Date: Tue, 02 Jul 2024 09:48:46 GMT
+x-amzn-RequestId: 996b36da-9cb3-4ca4-8d6a-67b70d810e92
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 32
+x-download-options: noopen
+x-amz-apigw-id: aRz3zHKOhcwECew=
+x-content-type-options: nosniff
+etag: W/"20-2mw0XwO7+3AVgAr0Y2qp1TZTqdc"
+X-Amzn-Trace-Id: Root=1-6683ccfe-6334b20f60c278140fd6cd32
+X-Cache: Miss from cloudfront
+Via: 1.1 59e9c512e1bbebe62aea77d556eea354.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HYD57-P4
+X-Amz-Cf-Id: 5BIwHX6_Gzdt2n_p_78Rql6CRBQFH5HuhglZ1IxbuGHLzJXfw4udJg==
+
+<html>
+  <body>Message was added Successfully!!</body>
+</html>
+Exection of VIRTUAL BANK PAYMENT is completed
+]]></system-out>
+  </testcase>
+</testsuite>

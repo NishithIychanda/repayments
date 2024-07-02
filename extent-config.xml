@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report theme -->
+        <theme>standard</theme>
+
+        <!-- Document title -->
+        <documentTitle>ExtentReports - Test Automation Report</documentTitle>
+
+        <!-- Report name -->
+        <reportName>Test Automation Report</reportName>
+
+        <!-- Custom CSS -->
+        <css>#nav { display: none; }</css>
+    </configuration>
+</extentreports>
