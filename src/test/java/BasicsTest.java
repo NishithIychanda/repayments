@@ -3,22 +3,28 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
+import util.EmailUtil;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import javax.mail.MessagingException;
 
 
 public class BasicsTest {
     ExtentReports extent;
     ExtentTest test;
-   // ExtentHtmlReporter htmlReporter;
     ExtentSparkReporter sparkReporter;
+	String reportPath = "test-output/ExtentReport.html"; // Initialize reportPath
 
     @BeforeTest
     public void setUp() {
-        sparkReporter = new ExtentSparkReporter("test-output/ExtentReport.html");
+    	String reportPath;
+    	reportPath = "test-output/ExtentReport.html"; // Initialize reportPath
+        sparkReporter = new ExtentSparkReporter(reportPath);
         sparkReporter.config().setTheme(Theme.STANDARD);
         sparkReporter.config().setDocumentTitle("Test Report");
         sparkReporter.config().setReportName("Extent Reports");
@@ -104,5 +110,30 @@ public class BasicsTest {
         if (extent != null) {
             extent.flush();
         }
+
+        // Email configuration
+        String host = "smtp.gmail.com";
+        String port = "587";
+        String mailFrom = "loadtestingatjmeter@gmail.com"; // replace with your email
+        String password = "enrp mtbg rzfm znsj"; // replace with your email password
+
+        // Outgoing message information
+        String[] mailTo = {"nishith.in@jai-kisan.com", "ramesh.patel@jai-kisan.com"}; // replace with recipient emails
+        String subject = "Test Report for Repayments Api";
+        String message = "Please find the attached test report.";
+
+        // Attachments
+        String[] attachFiles = new String[1];
+        attachFiles[0] = reportPath;
+
+        try {
+            EmailUtil.sendEmailWithAttachments(host, port, mailFrom, password, mailTo, subject, message, attachFiles);
+            System.out.println("Email sent successfully.");
+        } catch (MessagingException ex) {
+            System.out.println("Could not send email.");
+            ex.printStackTrace();
+        }
     }
 }
+    
+

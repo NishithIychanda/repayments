@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: BasicsTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.52 s <<< FAILURE! -- in BasicsTest
-BasicsTest.testBkQrRepayment -- Time elapsed: 3.711 s <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.74 s <<< FAILURE! -- in BasicsTest
+BasicsTest.testBkQrRepayment -- Time elapsed: 2.329 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <500>.
@@ -38,7 +38,7 @@ Expected status code <200> but was <500>.
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
 	at files.payload.bkQrRepayment(payload.java:189)
-	at BasicsTest.testBkQrRepayment(BasicsTest.java:77)
+	at BasicsTest.testBkQrRepayment(BasicsTest.java:83)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)

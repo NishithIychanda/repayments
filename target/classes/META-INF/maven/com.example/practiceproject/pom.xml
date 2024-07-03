@@ -44,6 +44,12 @@
     <artifactId>extentreports</artifactId>
     <version>4.1.6</version>
 </dependency>
+<!--Email dependency for Reporting-->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+</dependency>
 
     </dependencies>
 

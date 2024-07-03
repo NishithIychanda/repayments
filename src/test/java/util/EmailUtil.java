@@ -1,46 +1,55 @@
 package util;
 
+import java.util.Properties;
 import javax.mail.*;
 import javax.mail.internet.*;
-import java.util.Properties;
 
 public class EmailUtil {
-    
-    public static void sendEmailWithAttachments(String host, String port, final String userName, final String password, String toAddress,
-                                                String subject, String message, String[] attachFiles) throws MessagingException {
-        // sets SMTP server properties
+
+    public static void sendEmailWithAttachments(String host, String port,
+                                                String mailFrom, String password, String[] mailTo,
+                                                String subject, String message, String[] attachFiles)
+            throws AddressException, MessagingException {
+
+        // Sets SMTP server properties
         Properties properties = new Properties();
         properties.put("mail.smtp.host", host);
         properties.put("mail.smtp.port", port);
         properties.put("mail.smtp.auth", "true");
         properties.put("mail.smtp.starttls.enable", "true");
 
-        // creates a new session with an authenticator
+        // Creates a new session with an authenticator
         Authenticator auth = new Authenticator() {
             public PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(userName, password);
+                return new PasswordAuthentication(mailFrom, password);
             }
         };
+
         Session session = Session.getInstance(properties, auth);
 
-        // creates a new e-mail message
+        // Creates a new e-mail message
         Message msg = new MimeMessage(session);
 
-        msg.setFrom(new InternetAddress(userName));
-        InternetAddress[] toAddresses = {new InternetAddress(toAddress)};
-        msg.setRecipients(Message.RecipientType.TO, toAddresses);
+        msg.setFrom(new InternetAddress(mailFrom));
+        
+        InternetAddress[] addressTo = new InternetAddress[mailTo.length];
+        for (int i = 0; i < mailTo.length; i++) {
+            addressTo[i] = new InternetAddress(mailTo[i]);
+        }
+        msg.setRecipients(Message.RecipientType.TO, addressTo);
+        
         msg.setSubject(subject);
         msg.setSentDate(new java.util.Date());
 
-        // creates message part
+        // Creates message part
         MimeBodyPart messageBodyPart = new MimeBodyPart();
         messageBodyPart.setContent(message, "text/html");
 
-        // creates multi-part
+        // Creates multi-part
         Multipart multipart = new MimeMultipart();
         multipart.addBodyPart(messageBodyPart);
 
-        // adds attachments
+        // Adds attachments
         if (attachFiles != null && attachFiles.length > 0) {
             for (String filePath : attachFiles) {
                 MimeBodyPart attachPart = new MimeBodyPart();
@@ -55,10 +64,10 @@ public class EmailUtil {
             }
         }
 
-        // sets the multi-part as e-mail's content
+        // Sets the multi-part as e-mail's content
         msg.setContent(multipart);
 
-        // sends the e-mail
+        // Sends the e-mail
         Transport.send(msg);
     }
 }
